@@ -25,3 +25,48 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 /* Right-align the text of the address/footer */
 
 /* draw a 2px thick black border around the starters and desserts sections of the menu */
+
+body{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    
+}
+
+header > h1 {
+    
+    font-family: 'Bungee Inline', cursive;
+    font-size: 46px;
+    font-weight: lighter;
+
+}
+
+section > h2 {
+
+    text-transform: uppercase;
+    
+
+}
+
+.menu_item {
+
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.menu_item::after {
+    content: ",";
+}
+
+footer {
+
+    float: right;
+
+}
+
+#starters, #desserts {
+
+    border: 2px solid black;
+
+}

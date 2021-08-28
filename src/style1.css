@@ -26,3 +26,56 @@ dd {margin: 0 0 12px 0; display: flex;}
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 address {padding: 10px;}
+
+
+/*=========================STYLES=================*/
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-image: url(./img/map-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header > h1 {
+    
+    font-family: 'Supermercado One', cursive;
+    font-size: 45px;
+    color: #5d4037;
+
+}
+
+.menu_item {
+
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+section > h2 {
+
+    color: #6d4c41;
+    font-variant: small-caps;
+
+}
+
+.price {
+
+color: #b22222;
+
+}
+
+#menu {
+
+    column-rule: 2px dashed #bc8f8f;
+
+}
+
+footer {
+
+    border: 2px dashed #bc8f8f;
+}
